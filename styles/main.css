@@ -1,0 +1,48 @@
+html{
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+}
+header{
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+body{
+    background-color: rgb(230, 104, 20);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    max-width: 1000px;
+    width: 100%;
+    border: 10px solid red;
+    margin: 0 auto;
+}
+div{
+    clear: both;
+    margin: 10px 10px 10px;
+}
+
+img{
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.leftImage{
+    float: left;
+    margin-right: 15px;
+}
+.rightImage{
+    float: right;
+    margin-left: 15px;
+}
+
+footer{
+    clear: both;
+    background-color: red;
+
+
+}
+footer p{
+    text-align: center;
+    font-size: 80%;
+
+}
